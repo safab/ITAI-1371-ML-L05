@@ -1,6 +1,7 @@
 1.	INTRODUCTION - (Name)
 
-2.	DESCRIPTION OF EXPERIENCE/TOPIC - (Name)
+2.	DESCRIPTION OF EXPERIENCE/TOPIC - (Safa Basil)
+In this lab, I worked with the Titanic dataset and practiced several data-preparation techniques. First, I examined the dataset for missing values. The Age column contained many missing values, so I calculated the median age and used it to replace them. Next, I used one-hot encoding on the Sex and Embarked columns because machine learning models require numerical data. I used drop_first=True to avoid creating unnecessary duplicate columns. Finally, I used StandardScaler to standardize the Age and Fare columns so that both features were placed on a similar scale.
 
 3.	PERSONAL REFLECTION – (Name)
 
